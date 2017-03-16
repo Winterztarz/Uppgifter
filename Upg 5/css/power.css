@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  position: relative;
+  background: #2c3e50;
+  transition: background ease 0.5s;
+}
+html, body {
+height: 100%;
+}
+.fa {
+  color: #FFFFFF;
+    font-size: 140px;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+  transition: color ease 0.5s;
+}
+body.on {
+  background: #9b59b6;
+}
+.on .fa {
+  color: #FFFFFF;
+}
+.cirkel {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+
+}

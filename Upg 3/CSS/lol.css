@@ -1,0 +1,80 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  background: #fff;
+  margin: 0 auto 60px;
+}
+#head {
+  background: #000;
+  height: 100%;
+  font-weight: bold;
+  line-height: 180px;
+  text-align: center;
+}
+#head h1 {
+  color: #FFF;
+  font-size: 40px;
+  margin-top: 0px;
+}
+#nav {
+  width: 340px;
+  height: 480px;
+  float: left;
+}
+#nav a {
+  font-size: 20px;
+  display: block;
+  letter-spacing: 1.0px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+#texta {
+  width: auto;
+  height: auto;
+  margin-right: 80px;
+}
+#img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+#img:hover {
+    border: 1px solid #777;
+}
+
+#img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+#texta h1 {
+  font-size: 35px;
+}
+#texta p {
+  font-size: 20px;
+}
+#texta label {
+  display: block;
+  margin-top:20px;
+  letter-spacing:2px;
+}
+/*FOOTER*/
+footer {
+  background: #000;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
